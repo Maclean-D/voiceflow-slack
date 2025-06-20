@@ -230,3 +230,6 @@ In the Secrets tab, you can click on Edit as JSON button and paste the following
 ![Create a new Slack app](doc/images/slack/slack-try-app.png)
 
 ![Create a new Slack app](doc/images/slack/slack-bot.png)
+
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=voiceflow-community_voiceflow-slack&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=voiceflow-community_voiceflow-slack)
