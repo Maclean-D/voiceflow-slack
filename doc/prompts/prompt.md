@@ -24,4 +24,4 @@ codeblock
 
 Custom emoji you have access to:
 
-- :ty: (The letters TY)
+- :bowtie: (Smiling emoji with a bowtie)
