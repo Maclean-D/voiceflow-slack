@@ -158,7 +158,7 @@ Connect any Voiceflow agent to a Slack App via the dialog API
 ```
 
 > [!IMPORTANT]  
-> Switch out all of the placeholders with the keys and tokens you saved for later
+> Switch out all of the placeholders with the keys and tokens you saved for later earlier
 
 7. Press `Save`
 8. Click `Deploy` in the top right
