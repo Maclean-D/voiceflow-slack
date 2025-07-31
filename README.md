@@ -183,6 +183,11 @@ Connect any Voiceflow agent to a Slack App via the dialog API
 2. @ the bot in a message and attempt to send it
 3. Slack will prompt you `Want to add this person instead?`, press `Add to Channel`
 
+### Custom commands
+
+- Send `hi` or to not pass a message to Voiceflow, and have it generate a response.
+- @ the bot in a message to check if the server is online, regardless of being hooked up to Voiceflow
+
 ## Troubleshooting
 
 ### Images Are Not Appearing

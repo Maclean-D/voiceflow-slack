@@ -41,7 +41,7 @@ app.event('app_mention', async ({ event, client, say }) => {
     await say(`✅ Server Connected \nCurrent user: \`${userName}\``)
     let utterance = event.text.split('>')[1]
     utterance = cleanEmail(utterance)
-    if (utterance === 'hi' || utterance === 'hi there') {
+    if (utterance === 'hi') {
       await interact(event.user, say, client, {
         type: 'launch',
       })
@@ -109,7 +109,7 @@ app.message(ANY_WORD_REGEX, async ({ message, say, client }) => {
 
   console.log('Utterance:', utterance)
 
-  if (utterance === 'hi' || utterance === 'hi there') {
+  if (utterance === 'hi') {
     await interact(message.user, say, client, {
       type: 'launch',
     })
