@@ -185,6 +185,10 @@ Connect any Voiceflow agent to a Slack App via the dialog API
 
 ## Troubleshooting
 
+### Images Are Not Appearing
+
+Images are only supported when sent via the image block in voiceflow, not from an agent message.
+
 ### Error. Please try again a bit later
 
 This usually happens when your Replit secrets are entered wrong, or a message broke the voiceflow loging (i.e. a message was sent over 4,000 characters). Once you're sure your secrets are entered correctly:
