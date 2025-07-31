@@ -4,6 +4,11 @@
 
 Connect any Voiceflow agent to a Slack App via the dialog API
 
+## Features
+
+- Connect to any Voiceflow Agent
+- Supports messages, buttons, and images (when sent individually)
+- Passes the user's full Slack name to Voiceflow
 
 ## Setup
 
