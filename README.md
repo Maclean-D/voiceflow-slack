@@ -10,6 +10,8 @@ Connect any Voiceflow agent to a Slack App via the dialog API
 - Supports messages, buttons, and images (when sent individually)
 - Passes the user's full Slack name to Voiceflow
 
+<img width="816" height="384" alt="Demo" src="https://github.com/user-attachments/assets/cc6a7a35-0745-4f06-8ed8-ff83ab96c28d" />
+
 ## Setup
 
 ### Create your Slack App
