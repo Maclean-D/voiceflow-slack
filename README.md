@@ -2,7 +2,7 @@
 
 ![voiceflow-slack](https://github.com/Maclean-D/voiceflow-slack/raw/main/voiceflow-slack.png)
 
-Connect any Voiceflow agent to a Slack Bot via the dialog API
+Connect any Voiceflow agent to a Slack App via the dialog API
 
 
 ## Setup
@@ -160,67 +160,21 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
 11. Under App Type select `Background Worker`
 12. Press the `Deploy` button at the bottom
 
-### Setup the Replit secrets
+## Using your Slack App
 
-> Set new Secrets with the following info
+### Via DM
 
-**SLACK\_APP\_TOKEN**
-Slack **app secret** (starting with **xapp-**)
+1. In Slack search for 'Voiceflow Slack Demo' or the app name you created earlier.
+2. Navigate to the Messages tab from the app's page
 
-**SLACK\_BOT\_TOKEN**
-Slack **bot token** (starting with **xoxb-**)
+### In a Channel
 
-**SLACK\_SIGNING\_SECRET**
-Slack app **signing secret**
+> [!IMPORTANT]  
+> Your app will respond to every message in channels it's added to
 
-**VOICEFLOW\_VERSION\_ID**
-Voiceflow **project version ID** (Needed if you want to save transcripts, will default to 'production' otherwise)
-
-**VOICEFLOW\_PROJECT\_ID**
-Voiceflow **project ID** (Needed if you want to save transcripts, will default to null otherwise)
-
-**VOICEFLOW\_API\_KEY**
-Voiceflow **project API key** (from the Integration section)
-
-In the Secrets tab, you can click on Edit as JSON button and paste the following JSON (do not forget to update the keys values):
-```
-{
-  "VOICEFLOW_API_KEY":"VF.12345678",
-  "VOICEFLOW_VERSION_ID":"12345678",
-  "VOICEFLOW_PROJECT_ID":"12345678",
-  "VOICEFLOW_RUNTIME_ENDPOINT":"general-runtime.voiceflow.com",
-  "SLACK_APP_TOKEN":"XXXX",
-  "SLACK_BOT_TOKEN":"XXXXX",
-  "SLACK_SIGNING_SECRET":"XXXXXXX"
-}
-```
-![Set secrets](doc/images/replit/secrets.png)
-
-### Set your App type
-
-> Set the App type to Background Worker
-
-![Set app type](doc/images/replit/type.png)
-
-### Install your Slack App
-
-> On your **Slack workspace**, click on **Apps** > **Add apps**
-
-![Create a new Slack app](doc/images/slack/slack-add-app.png)
-
-> **Search** for 'Voiceflow Slack Demo' or the app name you've created earlier on Slack API website and **click on it** in the Search results list to install it
-
-![Create a new Slack app](doc/images/slack/slack-install-app.png)
-
-> The app is now available and you can click on **Messages** to start interacting with your bot.
-
-![Create a new Slack app](doc/images/slack/slack-try-app.png)
-
-![Create a new Slack app](doc/images/slack/slack-bot.png)
-
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=voiceflow-community_voiceflow-slack&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=voiceflow-community_voiceflow-slack)
-
+1. Open the Slack channel you want to add it to
+2. @ the bot in a message and attempt to send it
+3. Slack will prompt you `Want to add this person instead?`, press `Add to Channel`
 
 ## Star History
 
