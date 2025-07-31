@@ -126,6 +126,26 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
 
 2. Click `Import from  GitHub
 3. A `Configure Repl` window should have opened, scroll down and click `Confirm and Close`
+4. Press the Search button on the top right of the screen
+5. Search for `Secrets` and click the first option
+6. Click `Edit as JSON` in the bottom left of the secrets tab and replace the content in it with:
+
+```json
+{
+  "VOICEFLOW_API_KEY":"VF.12345678",
+  "VOICEFLOW_VERSION_ID":"12345678",
+  "VOICEFLOW_PROJECT_ID":"12345678",
+  "VOICEFLOW_RUNTIME_ENDPOINT":"general-runtime.voiceflow.com",
+  "SLACK_APP_TOKEN":"XXXX",
+  "SLACK_BOT_TOKEN":"XXXXX",
+  "SLACK_SIGNING_SECRET":"XXXXXXX"
+}
+```
+
+> [!IMPORTANT]  
+> Switch out all of the placeholders with the keys and tokens you saved for later
+
+7. 
 
 ### Setup the Replit secrets
 
