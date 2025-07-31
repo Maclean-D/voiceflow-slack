@@ -195,7 +195,7 @@ This usually happens when your Replit secrets are entered wrong, or a message br
 
 1. Create a new channel
 2. Add your app to the channel
-3. Sending a message there should break the `Error. Please try again a bit later` loop.
+3. Sending a message should break the `Error. Please try again a bit later` loop.
 
 ### Can't end chat
 
