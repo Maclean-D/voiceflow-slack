@@ -9,26 +9,16 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
 
 ### Create your Slack App
 
-> Go to to https://api.slack.com/apps?new_app=1 to **create your Slack app**
+1. [Create an app](https://api.slack.com/apps?new_app=1)
+2. Select `From a manifest`
+3. Select the workspace you want to use your app in
+4. Replace the JSON with:
 
-> Select <mark>**From an app manifest**</mark>
-
-
-![Create a new Slack app](doc/images/slack/slack-create-app.png)
-
-> Select the **workspace** you want to publish the app to
-
-![Select a worksapce](doc/images/slack/slack-select-workspace.png)
-
-> Choose <mark>**JSON**</mark> on the next screen and replace evrything with the manifest bellow
-
-![Slack Manifest](doc/images/slack/slack-manifest.png)
-
-~~~json
+```json
 {
     "display_information": {
         "name": "Voiceflow Slack Demo",
-        "description": "Slack Assistant using Voiceflow Dialog Manager API",
+        "description": "Slack Bot using Voiceflow's Dialog Manager API",
         "background_color": "#37393d"
     },
     "features": {
@@ -85,7 +75,7 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
         "token_rotation_enabled": false
     }
 }
-~~~
+```
 
 > Click **Next** at the bottom of the window
 
