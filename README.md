@@ -115,7 +115,7 @@ Connect any Voiceflow agent to a Slack App via the dialog API
 - Make sure it works and that you've Published it (Green publish button in the top right)
 
 > [!Tip]  
-> Slack's formatting works different for apps then then users, consider adding [this](doc/prompts/prompt.md) to your agent's prompt
+> Slack's formatting works different for apps then users, consider adding [this](doc/prompts/prompt.md) to your agent's prompt
 
 > [!NOTE]  
 > Ensure that your Agent has an end function. (Logic > End). Anytime you edit your agent you will need to publish it, and start a new chat for the changes to take effect.
