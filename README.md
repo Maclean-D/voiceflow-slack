@@ -208,6 +208,10 @@ If you forgot to add an end chat flow, unfortunately the easiest workaround is t
 5. Add your app to the channel
 6. Send a message there to fix the logging error.
 
+### Using an outdated version
+
+If the slack app is using an older published version of your voiceflow agent, first try ending the chat and creating a new one. If that doesn't fix the issue, try removing the `VOICEFLOW_VERSION_ID` secret from Replit.
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Maclean-D/voiceflow-slack&type=Date)](https://star-history.com/#Maclean-D/voiceflow-slack&Date)
