@@ -1,4 +1,6 @@
-# Voiceflow Slackbot
+# voiceflow-slack
+
+![voiceflow-slack](https://github.com/Maclean-D/voiceflow-slack/raw/main/voiceflow-slack.png)
 
 #### Use Voiceflow Dialog Manager API to run a Slack Bot
 
