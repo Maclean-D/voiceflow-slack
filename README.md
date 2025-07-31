@@ -151,8 +151,8 @@ Connect any Voiceflow agent to a Slack App via the dialog API
   "VOICEFLOW_VERSION_ID":"12345678",
   "VOICEFLOW_PROJECT_ID":"12345678",
   "VOICEFLOW_RUNTIME_ENDPOINT":"general-runtime.voiceflow.com",
-  "SLACK_APP_TOKEN":"XXXX",
-  "SLACK_BOT_TOKEN":"XXXXX",
+  "SLACK_APP_TOKEN":"xapp-XXXXX",
+  "SLACK_BOT_TOKEN":"xoxb-",
   "SLACK_SIGNING_SECRET":"XXXXXXX"
 }
 ```
