@@ -185,7 +185,7 @@ Connect any Voiceflow agent to a Slack App via the dialog API
 
 ### Custom commands
 
-- Send `hi` or to not pass a message to Voiceflow, and have it generate a response.
+- Send `hi` to not pass a message to Voiceflow, and have it generate a response.
 - @ the bot in a message to check if the server is online, regardless of being hooked up to Voiceflow
 
 ## Troubleshooting
