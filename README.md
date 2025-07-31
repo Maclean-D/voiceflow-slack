@@ -78,52 +78,45 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
 ```
 
 5. Click `Next` then `Create`
-6. Navigate to the "Install App" tab on the left
-7. Click Install
-8. Click Allow
+6. Navigate to the `Install App` tab on the left
+7. Click `Install`
+8. Click `Allow`
 
-### Generate a signin key and tokens
+### Obtain Slack Keys and Tokens
 
-> On the main screen, you want to <mark>**copy the secret key** and **keep it for later**</mark>
+#### Slack Signing Secret
 
-![Slack app secret](doc/images/slack/slack-signin-secret.png)
+1. Navigate to the `Basic Information` tab on the left
+2. Copy the `Signing Secret` and save it somewhere for later
 
-> Scroll down and click on **Generate Token and Scopes**
+#### Slack App Token
 
-![Slack app level tokens](doc/images/slack/slack-app-level-tokens.png)
+1. Scroll down and click `Generate Token and Scopes`
+2. Name the token `Voiceflow Token`
+3. Click `Add Scope` and select `connections:write`
+4. Click Generate
+5. Copy the app token and save it somewhere for later
 
-> Give this Token a **name** and add the **connections:write** scope to it. Then click on **Generate**
+#### Slack Bot Token
 
-![Slack app scope](doc/images/slack/slack-app-level-scope.png)
+1. Navigate to the `OAuth & Permissions tab` on the left
+2. Copy the `Bot User OAuth Token` and save it somewhere for later
 
-> Copy the <mark>**app token** and **save it for later**</mark>
+### Obtain Voiceflow Keys and Tokens
 
-![Slack app token](doc/images/slack/slack-app-token.png)
+- [Open a Voiceflow Agent](https://creator.voiceflow.com/workspace/)
+- Open `Settings` by pressing `7` or clicking the cogwheel on the left
 
-> Go to the **OAuth & Permissions** section, <mark>copy the **Bot User OAuth Token** from there and save it for later</mark>
+#### Voiceflow API Key
 
-![Slack app bot token](doc/images/slack/slack-bot-user-token.png)
+1. Navigate to the `API Keys` tab on the left
+2. Copy your `Primary key` and save it somewhere for later
 
-> You should now have:
-	a <mark>**secret key**</mark>
-	an <mark>**app token**</mark>
-	a <mark>**bot token**</mark>
+#### Project and Version ID
 
-<img src="doc/images/voiceflow/voiceflow-logo.png" alt="Voiceflow logo" width="180"/>
-
-### Get your project Dialog API key
-
-> Go to [Voiceflow Creator](https://creator.voiceflow.com) and open the <mark>**Chat Assistant project**</mark> you want to use
-
-> On your project, click on **Integration** from the left sidebar (or press the **6** key)
-
-![Voiceflow integration](doc/images/voiceflow/voiceflow-integration.png)
-
-> Click **Copy** to <mark>copy your Voiceflow Dialog API Key and save it for later</mark>
-
-![Voiceflow API key](doc/images/voiceflow/voiceflow-copy.png)
-
-[![Run on Repl.it](https://replit.com/badge/github/Maclean-D/voiceflow-slack)](https://replit.com/new/github/Maclean-D/voiceflow-slack)
+1. Navigate to the `General` tab on the left
+2. Copy the `Project Key` and save it somewhere for later
+3. Copy the `Version ID` and save it somewhere for later
 
 ### Setup the Replit secrets
 
