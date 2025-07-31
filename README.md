@@ -150,11 +150,11 @@ Custom emoji you have access to:
 
 ### Create your Replit app
 
-1. Click Run on Replit below
+1. Click `Run on Replit` below
 
 [![Run on Repl.it](https://replit.com/badge/github/Maclean-D/voiceflow-slack)](https://replit.com/new/github/Maclean-D/voiceflow-slack)
 
-2. Click `Import from  GitHub
+2. Click `Import from  GitHub`
 3. A `Configure Repl` window should have opened, scroll down and click `Confirm and Close`
 4. Press the Search button on the top right of the screen
 5. Search for `Secrets` and click the first option
