@@ -2,33 +2,10 @@
 
 ![voiceflow-slack](https://github.com/Maclean-D/voiceflow-slack/raw/main/voiceflow-slack.png)
 
-#### Use Voiceflow Dialog Manager API to run a Slack Bot
+Connect any Voiceflow agent to a Slack Bot via the dialog API
 
-# Updates
 
-	[v1.0]
-	- Fix for Socket Mode on Heroku
-	- Handle weblinks in Text step
-	- Translate text styling to Slack Markdown format
-
-	[v1.0.1]
-	- Handle choice/buttons
-	- Updated logic to translate slate text
-
-    [v1.0.2]
-	- Add createSession function
-	- Updated interact to save transcript
-    - Migrate from Heroku to Replit
-
-# Prerequisite
-
-- [Replit](https://www.replit.com/) account
-- [Slack API](https://api.slack.com/) access
-- [Voiceflow](https://www.voiceflow.com) **Chat Assistant** project
-
-# Setup
-
-## ![Slack logo](doc/images/slack/slack-logo.png)
+## Setup
 
 ### Create your Slack App
 
@@ -215,8 +192,6 @@ In the Secrets tab, you can click on Edit as JSON button and paste the following
 
 ![Set app type](doc/images/replit/type.png)
 
-## ![Slack logo](doc/images/slack/slack-logo.png)
-
 ### Install your Slack App
 
 > On your **Slack workspace**, click on **Apps** > **Add apps**
@@ -235,3 +210,14 @@ In the Secrets tab, you can click on Edit as JSON button and paste the following
 
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=voiceflow-community_voiceflow-slack&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=voiceflow-community_voiceflow-slack)
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Maclean-D/voiceflow-slack&type=Date)](https://star-history.com/#Maclean-D/voiceflow-slack&Date)
+
+## Contributors
+
+<a href="https://github.com/Maclean-D/voiceflow-slack/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Maclean-D/voiceflow-slack" />
+</a>
