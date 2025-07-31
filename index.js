@@ -136,6 +136,11 @@ async function interact(userID, say, client, request) {
   let userName = i.user.profile.real_name_normalized
   let userPix = i.user.profile.image_48
 
+  // Prepend user's name to text messages
+  if (request.type === 'text') {
+    request.payload = `${userName}:\n${request.payload}`
+  }
+
   // call the Voiceflow API with the user's name & request, get back a response
   try {
     const response = await axios({
