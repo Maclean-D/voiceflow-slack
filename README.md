@@ -144,9 +144,6 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
 
 ![Voiceflow API key](doc/images/voiceflow/voiceflow-copy.png)
 
-
-<a href="https://replit.com/@niko-voiceflow/voiceflow-slackbot?v=1"><img src="doc/images/replit/logotype.webp" alt="Voiceflow logo" width="280"/></a>
-
 [![Run on Repl.it](https://replit.com/badge/github/Maclean-D/voiceflow-slack)](https://replit.com/new/github/Maclean-D/voiceflow-slack)
 
 ### Setup the Replit secrets
