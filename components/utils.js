@@ -1,6 +1,3 @@
-const emojiRegex = /:[^:\s]*(?:::[^:\s]*)*:/g
-export const stripEmojis = (text) => text.replace(emojiRegex, '').trim()
-
 const backslashRegex = /\\n|\\r/g
 export function stripBackSlashs(text) {
   text = text.replace(/&quot;/g, '"')

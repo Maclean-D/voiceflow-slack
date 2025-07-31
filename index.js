@@ -1,7 +1,7 @@
 /* eslint-disable no-await-in-loop */
 import slack_pkg from '@slack/bolt'
 const { App } = slack_pkg
-import { createSession, cleanEmail, stripEmojis, stripBackSlashs, cleanText, CHIP_ACTION_REGEX, ANY_WORD_REGEX } from './components/utils.js'
+import { createSession, cleanEmail, stripBackSlashs, cleanText, CHIP_ACTION_REGEX, ANY_WORD_REGEX } from './components/utils.js'
 import * as Home from './components/home.js'
 import axios from 'axios'
 import { Text } from 'slate'
@@ -40,7 +40,6 @@ app.event('app_mention', async ({ event, client, say }) => {
 
     await say(`✅ Server Connected \nCurrent user: \`${userName}\``)
     let utterance = event.text.split('>')[1]
-    utterance = stripEmojis(utterance)
     utterance = cleanEmail(utterance)
     if (utterance === 'hi' || utterance === 'hi there') {
       await interact(event.user, say, client, {
@@ -104,7 +103,7 @@ app.message(ANY_WORD_REGEX, async ({ message, say, client }) => {
     return
 
   // Cleaning user's utterance from Slack
-  let utterance = stripEmojis(message.text)
+  let utterance = message.text
   // Formating Slack email format from <mailto:name@email.com|name@email.com> to name@email.com
   utterance = cleanEmail(utterance)
 
