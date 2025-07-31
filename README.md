@@ -191,7 +191,7 @@ Images are only supported when sent via the image block in voiceflow, not from a
 
 ### Error. Please try again a bit later
 
-This usually happens when your Replit secrets are entered wrong, or a message broke the voiceflow loging (i.e. a message was sent over 4,000 characters). Once you're sure your secrets are entered correctly:
+This usually happens when your Replit secrets are entered wrong, or a message broke the voiceflow loging (i.e. a message over 4,000 characters was sent). Once you're sure your secrets are entered correctly:
 
 1. Create a new channel
 2. Add your app to the channel
