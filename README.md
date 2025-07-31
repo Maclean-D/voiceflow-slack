@@ -77,21 +77,10 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
 }
 ```
 
-> Click **Next** at the bottom of the window
-
-![Next](doc/images/slack/slack-app-next.png)
-
-> **Review** the app details and comfirm by clicking on **Create**
-
-![Review Slack app](doc/images/slack/slack-app-review.png)
-
-> **Install** the newly created app on your workspace
-
-![Install Slack app](doc/images/slack/slack-install.png)
-
-> Click on **Allow** to finish to install the app on your Workspace
-
-![Allow Slack app](doc/images/slack/slack-allow.png)
+5. Click `Next` then `Create`
+6. Navigate to the "Install App" tab on the left
+7. Click Install
+8. Click Allow
 
 ### Generate a signin key and tokens
 
