@@ -183,6 +183,27 @@ Connect any Voiceflow agent to a Slack App via the dialog API
 2. @ the bot in a message and attempt to send it
 3. Slack will prompt you `Want to add this person instead?`, press `Add to Channel`
 
+## Troubleshooting
+
+### Error. Please try again a bit later
+
+This usually happens when your Replit secrets are entered wrong, or a message broke the voiceflow loging (i.e. a message was sent over 4,000 characters). Once you're sure your secrets are entered correctly:
+
+1. Create a new channel
+2. Add your app to the channel
+3. Sending a message there should break the `Error. Please try again a bit later` loop.
+
+### Can't end chat
+
+If you forgot to add an end chat flow, unfortunately the easiest workaround is to:
+
+1. Duplicate your agent in Voiceflow
+2. Change the secrets in Replit to match the new agent
+3. Redeploy Replit
+4. Create a new channel
+5. Add your app to the channel
+6. Send a message there to fix the logging error.
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=Maclean-D/voiceflow-slack&type=Date)](https://star-history.com/#Maclean-D/voiceflow-slack&Date)
