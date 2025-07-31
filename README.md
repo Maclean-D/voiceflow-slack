@@ -125,6 +125,8 @@ Connect any Voiceflow agent to a Slack Bot via the dialog API
 [![Run on Repl.it](https://replit.com/badge/github/Maclean-D/voiceflow-slack)](https://replit.com/new/github/Maclean-D/voiceflow-slack)
 
 2. Click `Import from  GitHub
+3. A `Configure Repl` window should have opened, scroll down and click `Confirm and Close`
+
 ### Setup the Replit secrets
 
 > Set new Secrets with the following info
