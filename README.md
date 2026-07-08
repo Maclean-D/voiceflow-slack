@@ -219,7 +219,13 @@ If the slack app is using an older published version of your voiceflow agent, fi
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Maclean-D/voiceflow-slack&type=Date)](https://star-history.com/#Maclean-D/voiceflow-slack&Date)
+<a href="https://www.star-history.com/?repos=Maclean-D%2Fvoiceflow-slack&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Maclean-D/voiceflow-slack&type=date&theme=dark&legend=top-left&sealed_token=LPRv3gnE_0tdVo1EXe0u_h8L0pksXePeUdQDxxc9eXO_kjdYlQjpN1k2HqxkmXAG5ik4IhDvV9WELAv1CUPy1F3ExSs8_Sl26rhs1njY5exmTa6nWC0acE2JuxT6vxKFx1PC0_PQHi9rAeQagqAmu-t9M7navAKk568SnIsLtPKR_hq5JFaXjD14KCQR" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Maclean-D/voiceflow-slack&type=date&legend=top-left&sealed_token=LPRv3gnE_0tdVo1EXe0u_h8L0pksXePeUdQDxxc9eXO_kjdYlQjpN1k2HqxkmXAG5ik4IhDvV9WELAv1CUPy1F3ExSs8_Sl26rhs1njY5exmTa6nWC0acE2JuxT6vxKFx1PC0_PQHi9rAeQagqAmu-t9M7navAKk568SnIsLtPKR_hq5JFaXjD14KCQR" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Maclean-D/voiceflow-slack&type=date&legend=top-left&sealed_token=LPRv3gnE_0tdVo1EXe0u_h8L0pksXePeUdQDxxc9eXO_kjdYlQjpN1k2HqxkmXAG5ik4IhDvV9WELAv1CUPy1F3ExSs8_Sl26rhs1njY5exmTa6nWC0acE2JuxT6vxKFx1PC0_PQHi9rAeQagqAmu-t9M7navAKk568SnIsLtPKR_hq5JFaXjD14KCQR" />
+ </picture>
+</a>
 
 ## Contributors
 
